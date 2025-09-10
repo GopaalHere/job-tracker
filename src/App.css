@@ -1,0 +1,193 @@
+*{
+  background-color: rgb(199, 214, 242);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.Head{
+  background-color: rgb(30, 40, 81);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.Head h1{
+  background-color: rgb(30, 40, 81);
+  font-weight: 550;
+}
+.navs{
+  background-color: rgb(30, 40, 81);
+}
+.navs a{
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 530;
+  color:white;
+  background-color: rgb(30, 40, 81);
+}
+.navs a:hover{
+  color: red;
+}
+
+.formContainer form{
+  display: grid;
+}
+.mainForm h1{
+  text-align: center;
+}
+.mainForm button{
+  width: 80px;
+  height: 30px;
+  margin: 20px;
+  
+}
+.mainForm button:hover{
+  background-color: rgb(50, 65, 125) ;
+  cursor: pointer;
+}
+.filter{
+  text-align: center;
+  margin: 50px;
+  
+}
+.filter label{
+ color: rgb(30, 40, 81);
+ font-weight: 500;
+}
+.filter option{
+  color: white;
+  background-color:  rgb(30, 40, 81) ;
+}
+#filter, .mainForm button{
+  background-color:  rgb(30, 40, 81) ;
+  color: white;
+}
+ul{
+  margin: 10px;
+  padding: 10px;
+  
+}
+ul li{
+  list-style: none;
+}
+ul li,p,.mainForm h1{
+ color: rgb(30, 40, 81) ;
+}
+.mainForm{
+  padding: 10px;
+  margin: 10px;
+}
+.job-form{
+   padding: 10px;
+   width: 400px;
+  margin: auto;
+  background-color:  rgb(88, 110, 196);
+  border-radius: 10px;
+}
+.job-form label,input,select,textarea{
+ color: rgb(30, 40, 81) ;
+ margin: 8px;
+}
+.job-form label{
+  background-color:  rgb(88, 110, 196);
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.job-form input{
+  font-size: 18px;
+  padding: 5px;
+}
+.ip{
+  width: 350px;
+}
+.selDate{
+  display: flex;
+  width: 360px;
+  margin: 20px 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.selDate #status{
+  padding: 5px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  justify-content: center;
+}
+.selDate #status:hover{
+  background-color: rgb(50, 65, 125) ;
+  cursor: pointer;
+}
+.selDate label{
+  background-color: rgb(199, 214, 242);
+}
+.job-form select,option{
+  background-color: rgb(30, 40, 81) ;
+  color: white;
+}
+textarea{
+  height: 100px;
+  width: 350px;
+}
+
+#notes{
+  width: 340px;
+  border-radius: 10px;
+  margin: 2px 8px 10px 8px;
+  padding: 10px;
+}
+.job-form button{
+  margin: 10px auto;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+.job-form button:hover{
+  background-color: rgb(50, 65, 125) ;
+  cursor: pointer;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  font-size: 20px;
+  margin: 10px;
+  padding: 8px;
+  background-color: rgb(152, 161, 200) ;
+  border-radius: 5px;
+  width: 410px;
+  
+}
+ul li ul{
+  background-color: rgb(152, 161, 200);
+  width: auto;
+  display: block;
+}
+ul li ul li{
+  font-size: 16px;
+  margin: 10px;
+  padding: 0px;
+  font-weight: 550;
+  color: rgb(14, 31, 19);
+  width: auto;
+  border-radius: 0px;
+}
+.credit {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.credit p {
+  margin: 0;
+}
